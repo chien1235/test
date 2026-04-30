@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>[你的姓名] | 跨領域研究與創作</title>
+    <title>Chien | 跨領域研究與創作</title>
     <link rel="stylesheet" href="styles.css">
-    <!-- 引入簡單的圖示庫 -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
 </head>
 <body>
@@ -13,9 +12,10 @@
     <!-- 導覽列 -->
     <header class="navbar">
         <div class="container nav-container">
-            <div class="logo">Chien</div>
+            <div class="logo">Chien.</div>
             <nav class="nav-links">
                 <a href="#about">關於我</a>
+                <a href="#expertise">核心領域</a>
                 <a href="#contact">聯絡方式</a>
             </nav>
         </div>
@@ -24,12 +24,12 @@
     <!-- 首頁視覺區 (Hero Section) -->
     <section id="hero" class="hero-section">
         <div class="container hero-content">
+            <div class="hero-badge">Cross-disciplinary Creator</div>
             <h1 class="hero-title">你好，我是 Chien</h1>
             <p class="hero-subtitle">
                 專注於文本分析、視覺影像生成與數理邏輯的跨領域創作者。
             </p>
             <div class="hero-buttons">
-                <!-- 預留給未來專案區塊的按鈕 -->
                 <a href="#about" class="btn btn-primary">了解更多</a>
                 <a href="#contact" class="btn btn-outline">與我聯絡</a>
             </div>
@@ -42,11 +42,35 @@
             <h2 class="section-title">關於我</h2>
             <div class="about-content">
                 <p>
-                    我是一名熱衷於跨領域探索的研究者與創作者。我的研究涵蓋了文學與實體空間的對話。
+                    我是一名熱衷於跨領域探索的研究者與創作者。我的研究涵蓋了文學與實體空間的對話。我相信結合人文敘事、視覺美學與嚴謹理性的分析，能夠碰撞出獨特且具深度的觀點。
                 </p>
-                <p>
-                    除了空間文本分析，我也積極投入生成式藝術與視覺設計，包含節慶視覺與影像風格生成，並具備紮實的數學與邏輯推演基礎。我相信結合人文敘事、視覺美學與嚴謹理性的分析，能夠碰撞出獨特且具深度的觀點。
-                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 核心領域 (Expertise Section - 新增的區塊，增加豐富度) -->
+    <section id="expertise" class="expertise-section">
+        <div class="container">
+            <h2 class="section-title">核心領域</h2>
+            <div class="expertise-grid">
+                <!-- 卡片 1 -->
+                <div class="expertise-card">
+                    <i class="ri-book-open-line"></i>
+                    <h3>空間文本分析</h3>
+                    <p>透過文學視角解析實體空間的文化底蘊與歷史脈絡。</p>
+                </div>
+                <!-- 卡片 2 -->
+                <div class="expertise-card">
+                    <i class="ri-palette-line"></i>
+                    <h3>視覺影像生成</h3>
+                    <p>投入生成式藝術與視覺設計，包含節慶視覺與影像風格生成。</p>
+                </div>
+                <!-- 卡片 3 -->
+                <div class="expertise-card">
+                    <i class="ri-function-line"></i>
+                    <h3>數理邏輯推演</h3>
+                    <p>具備紮實的數學基礎，以嚴謹理性的框架輔助研究與創作。</p>
+                </div>
             </div>
         </div>
     </section>
@@ -59,8 +83,8 @@
             
             <div class="contact-links">
                 <a href="mailto:your.email@example.com" class="contact-item">
-                    <i class="ri-mail-line"></i>
-                    <span>your.email@example.com</span>
+                    <i class="ri-mail-send-line"></i>
+                    <span>Email</span>
                 </a>
                 <a href="https://github.com/yourusername" target="_blank" class="contact-item">
                     <i class="ri-github-line"></i>
